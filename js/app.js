@@ -16,7 +16,6 @@ const handleFormSubmit = function (event) {
                              Genre: ${event.target.genre.value}
                              Platform: ${event.target.platform.value}
                              Developer: ${event.target.developer.value}
-                             Price: £${event.target.price.value}
                              Metacritic score: ${event.target.metacritic_score.value}`
   const list = document.querySelector('ul');
   list.appendChild(newListItem);
