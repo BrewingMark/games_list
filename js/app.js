@@ -4,7 +4,8 @@ document.addEventListener('DOMContentLoaded', () =>{
 const form = document.querySelector('#new-item-form');
 form.addEventListener('submit', handleFormSubmit)
 
-
+const deleteAllButton = document.querySelector('#delete-all');
+deleteAllButton.addEventListener('click', handleDeleteAllClick)
 
 })
 
@@ -20,4 +21,9 @@ const handleFormSubmit = function (event) {
   const list = document.querySelector('ul');
   list.appendChild(newListItem);
   document.getElementById('new-item-form').reset();
+}
+
+const handleDeleteAllClick = function (event) {
+  const gamesList = document.querySelector('#games-list');
+  gamesList.innerHTML = '';
 }
