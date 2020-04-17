@@ -24,7 +24,13 @@
       </select>
 
       <label for="platform" class="primary">Platform</label>
-      <input type="text" id="platform" required/>
+      <select id="platform">
+        <option value=""disabled selected></option>
+        <option value="PC">PC</option>
+        <option value="X-BOX">X-BOX</option>
+        <option value="PS4">PS4</option>
+        <option value="Switch">Switch</option>
+      </select>
 
       <label for="developer" class="primary">Developer</label>
       <input type="text" id="developer" required/>
@@ -37,5 +43,9 @@
 
       <input type="submit" value="save"/>
     </form>
+
+    <h1>Games List</h1>
+    <ul id="games-list"></ul>
+
   </body>
 </html>
