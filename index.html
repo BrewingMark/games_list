@@ -8,40 +8,43 @@
   </head>
   <body>
     <form id="new-item-form">
+      <div id="form-wraper">
 
-      <label for="title" class="primary">Title</label>
-      <input type="text" id="title" required/>
+        <label for="title" class="primary">Title:</label>
+        <input type="text" id="title" required/>
 
-      <label for="genre" class="primary">Genre</label>
-      <select id="genre">
-        <option value=""disabled selected></option>
-        <option value="FPS">FPS</option>
-        <option value="RTS">RTS</option>
-        <option value="RPG">RPG</option>
-        <option value="Simulation">Simulation</option>
-        <option value="Racing">Racing</option>
-        <option value="Sport">Sport</option>
-      </select>
+        <label for="genre" class="primary">Genre:</label>
+        <select id="genre">
+          <option value=""disabled selected></option>
+          <option value="FPS">FPS</option>
+          <option value="RTS">RTS</option>
+          <option value="RPG">RPG</option>
+          <option value="Simulation">Simulation</option>
+          <option value="Racing">Racing</option>
+          <option value="Sport">Sport</option>
+        </select>
 
-      <label for="platform" class="primary">Platform</label>
-      <select id="platform">
-        <option value=""disabled selected></option>
-        <option value="PC">PC</option>
-        <option value="X-BOX">X-BOX</option>
-        <option value="PS4">PS4</option>
-        <option value="Switch">Switch</option>
-      </select>
+        <label for="platform" class="primary">Platform:</label>
+        <select id="platform">
+          <option value=""disabled selected></option>
+          <option value="PC">PC</option>
+          <option value="X-BOX">X-BOX</option>
+          <option value="PS4">PS4</option>
+          <option value="Switch">Switch</option>
+        </select>
 
-      <label for="developer" class="primary">Developer</label>
-      <input type="text" id="developer" required/>
+        <label for="developer" class="primary">Developer:</label>
+        <input type="text" id="developer" required/>
 
-      <label for="metacritic_score" class="primary">Metacritic Score:</label>
-      <input type="text" id="metacritic_score" size= "3" maxlength="3" required/>
+        <label for="metacritic_score" class="primary">Metacritic Score:</label>
+        <input type="text" id="metacritic_score" size= "3" maxlength="3" required/>
 
-      <input type="submit" value="save"/>
+        <input type="submit" value="save"/>
+
     </form>
 
     <button id="delete-all">Delete All</button>
+    </div>
 
     <h1>Games List</h1>
     <ul id="games-list"></ul>

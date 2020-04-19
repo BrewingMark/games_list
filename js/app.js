@@ -16,7 +16,8 @@ const handleFormSubmit = function (event) {
                              Genre: ${event.target.genre.value}
                              Platform: ${event.target.platform.value}
                              Developer: ${event.target.developer.value}
-                             Metacritic score: ${event.target.metacritic_score.value}`
+                             Metacritic score: ${event.target.metacritic_score.value}%`
+  newListItem.classList.add('games-list-item');
   const list = document.querySelector('ul');
   list.appendChild(newListItem);
   document.getElementById('new-item-form').reset();

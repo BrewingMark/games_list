@@ -1,0 +1,39 @@
+.games-list-item {
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid #fa744f;
+  border-radius: 5%;
+  background: #ddeaff;
+  opacity: 75%;
+}
+
+ul {
+  margin-left: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+#form-wraper {
+  margin-left: 0;
+  height: 100%;
+  width: 150px;
+  position: fixed;
+  background-color: #16817a;
+  padding-top: 15px;
+  padding-left: 8px;
+  border: 1px solid #fa744f;
+}
+
+h1 {
+  margin-left: 150px;
+  margin-top: 0;
+  padding-top: 15px;
+  text-align: center;
+}
+
+body {
+  background-color: #024249;
+  margin-top: 0;
+  margin-left: 0;
+}
